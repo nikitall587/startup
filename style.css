@@ -1,0 +1,234 @@
+.menu {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: white;
+    padding: 200px 0px;
+    background-image: url(images/polygons.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.header a {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    background-color: #ccc;
+}
+
+#about img {
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+#about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0px;
+
+}
+
+.member {
+    display: inline-block;
+    width: 20%;
+    margin: 20px 10px;
+    border: 2px solid gray;
+    box-shadow: 0 2px 5px gray;
+    padding: 15px;
+    text-align: left;
+}
+
+.member img {
+    width: 100%;
+
+}
+
+#team {
+    text-align: center;
+}
+
+.member h3 {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.member .position {
+    opacity: 0.6;
+
+}
+
+.member a {
+    display: inline-block;
+    width: 100%;
+    background-color: #055b73;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 0;
+
+}
+
+.tarif li {
+    list-style-type: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.tarif .tarif-name {
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.tarif {
+    display: inline-block;
+    width: 30%;
+    min-width: 150px;
+    margin: 10px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 0px;
+
+}
+
+.tarif .best {
+    background-color: #055b73;
+    padding: 48px 0px;
+}
+
+.tarif li:last-child {
+    background-color: #f1f1f1;
+    padding: 24px 0;
+}
+
+.tarif a {
+    background-color: black;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.tarif a:hover {
+    background-color: white;
+    color: black;
+}
+
+#prices {
+    background-color: #616161;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#prices h2,
+#prices p {
+    color: white;
+}
+
+.important {
+    font-weight: bold;
+
+}
+
+#prices .price {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#prices .periud {
+    color: black;
+    opacity: 0.6;
+}
+
+#contact {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.contact-address {
+    background-image: url(images/address.png);
+}
+
+.contact-phone {
+    background-image: url(images/phone.png);
+}
+
+.contact-mail {
+    background-image: url(images/mail.png);
+}
+
+.contact-info {
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px 18px;
+    padding-left: 30px;
+    margin-left: 5%;
+
+}
+
+#contact input {
+    padding: 8px;
+    width: 90%;
+
+}
+
+#contact button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
